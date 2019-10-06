@@ -1,0 +1,31 @@
+<!-- show/hide additional guests -->
+<script>
+$(document).ready(function(){
+  $("#hide2").click(function(){
+    $("#g2").hide();
+  });
+  $("#show2").click(function(){
+    $("#g2").show();
+  });
+});
+</script>
+<script>
+$(document).ready(function(){
+  $("#hide3").click(function(){
+    $("#g3").hide();
+  });
+  $("#show3").click(function(){
+    $("#g3").show();
+  });
+});
+</script>
+<script>
+$(document).ready(function(){
+  $("#hide4").click(function(){
+    $("#g4").hide();
+  });
+  $("#show4").click(function(){
+    $("#g4").show();
+  });
+});
+</script>
